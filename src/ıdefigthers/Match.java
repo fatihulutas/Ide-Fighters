@@ -16,7 +16,7 @@ public class Match {
     public void run(){
         if (checkWeight()){
             System.out.println();
-            System.out.println("<<<FÝGHT>>>");
+            System.out.println("<<<FIGHT>>>");
             System.out.println();
             while (f1.health > 0 && f2.health > 0){
                 f2.health = f1.hit(f2);
@@ -43,12 +43,12 @@ public class Match {
             System.out.println();
             System.out.println("<<<MATCH IS OVER>>>");
             System.out.println();
-            System.out.println("WÝNNER: " + f2.name);
+            System.out.println("WINNER: " + f2.name);
             return true;
         }
         if (f2.health == 0){
             System.out.println("<<<MATCH IS OVER>>>");
-            System.out.println("WÝNNER: " + f1.name);
+            System.out.println("WINNER: " + f1.name);
             return true;
         }
         return false;

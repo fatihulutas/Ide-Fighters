@@ -66,9 +66,9 @@ public class Main {
             System.out.println(characterList);
             
             System.out.println("-Choose Character-");
-            System.out.print("FÝGHTER ONE :");
+            System.out.print("FIGHTER ONE :");
             String fighterOne = input.nextLine();
-            System.out.print("FÝGHTER TWO :");
+            System.out.print("FIGHTER TWO :");
             String fighterTwo = input.nextLine();
             
             if (("1".equals(fighterOne) && "2".equals(fighterTwo)) || ("Muhammed Ali".equals(fighterOne) && "Mike Tyson".equals(fighterTwo))){
@@ -80,7 +80,7 @@ public class Main {
             characterMenu = """
                             1- ADD CHARACTER
                             2- DELETE CHARACTER
-                            3- CHARACTER LÝST
+                            3- CHARACTER LIST
                             """;
             System.out.println(characterMenu);
         }
