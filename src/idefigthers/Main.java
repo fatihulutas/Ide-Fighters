@@ -1,4 +1,4 @@
-package ıdefigthers;
+package idefigthers;
 
 import java.util.Scanner;
 

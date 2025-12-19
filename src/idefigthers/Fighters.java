@@ -1,4 +1,4 @@
-package ıdefigthers;
+package idefigthers;
 
 public class Fighters {
     String name;

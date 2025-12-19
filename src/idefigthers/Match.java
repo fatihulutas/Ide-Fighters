@@ -1,4 +1,4 @@
-package ıdefigthers;
+package idefigthers;
 
 public class Match {
     Fighters f1;
