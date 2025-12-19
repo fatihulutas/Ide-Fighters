@@ -14,7 +14,7 @@ public class Main {
         Match match = new Match(muhammedAli, mikeTyson, 75, 120 );
         
         System.out.println("    --------------------    ");
-        System.out.println("       <ÝDE FÝGTHERS>"       );
+        System.out.println("       <IDE FIGTHERS>"       );
         System.out.println("    --------------------    ");
         
         try {
